@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
+import 'package:human_generator_app/home.dart';
 
 class MySplash extends StatefulWidget {
   @override
@@ -13,7 +14,7 @@ class _MySplashState extends State<MySplash> {
   Widget build(BuildContext context) {
     return SplashScreen(
       seconds: 2,
-      //navigateAfterSeconds: ,
+      navigateAfterSeconds: Home(),
       title: Text('Face Generator App',
           style: TextStyle(
               fontWeight: FontWeight.bold, fontSize: 35, color: Colors.white)),
