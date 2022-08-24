@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:flutter/material.dart';
 import 'package:human_generator_app/splashscreen.dart';
 
@@ -15,3 +16,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
